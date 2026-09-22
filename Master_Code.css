@@ -7817,15 +7817,6 @@ body .ace_closeButton:hover::before {
     mask: none !important;
 }
 
-[mask="url(#svg-mask-avatar-default)"],
-[mask="url(#svg-mask-avatar-status-round-32)"],
-[id="1a9ca1ed-c221-4566-b3ec-ab4945ce82dc"],
-foreignObject[mask*="url(#"] {
-    border-radius: 0 !important;
-    -webkit-mask: none !important;
-    mask: none !important;
-}
-
 .avatarWrapper-3B0ndJ.wrapper-3t9DeA > svg > rect {
     opacity: 1;
 }
