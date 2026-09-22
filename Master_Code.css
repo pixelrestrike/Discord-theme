@@ -7834,12 +7834,6 @@ foreignObject[mask*="url(#"] {
     background: var(--Background-Colour);
 }
 
-[mask="url(#svg-mask-status-idle)"],
-[mask="url(#svg-mask-status-dnd)"],
-[mask="url(#svg-mask-status-offline)"],
-[mask="url(#svg-mask-status-streaming)"] {
-    mask: url(#svg-mask-status-online);
-}
 
 [mask="url(#svg-mask-status-online)"],
 [mask="url(#svg-mask-status-online-mobile)"] {
@@ -14518,4 +14512,14 @@ a.anchor-1MIwyf:hover,
 }
 .user-profile-popout .inner_c0bea0{
   background: var(--Callout-Background)!important;
+}
+
+/* --- Restauration de l'arrondi des serveurs --- */
+[class*="guilds"] foreignObject,
+[class*="guilds"] foreignObject img,
+[class*="guilds"] [class*="childWrapper"],
+[class*="guilds"] [class*="icon"] {
+    mask: none !important;
+    -webkit-mask: none !important;
+    border-radius: 12px !important; /* Changez 12px par 15px, 20px ou 50% selon l'arrondi voulu */
 }
