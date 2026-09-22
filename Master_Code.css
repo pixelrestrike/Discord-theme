@@ -7913,11 +7913,6 @@ body .ace_closeButton:hover::before {
     color: var(--sourcecheck-official) !important;
 }
 
-/* Thanks Gibbu 174868361040232448 */
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) *,
-.wrapper-3t9DeA * {
-    mask: none !important;
-}
 
 [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) .dots-3Bkt3k,
 .wrapper-3t9DeA .dots-3Bkt3k {
