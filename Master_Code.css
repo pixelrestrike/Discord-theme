@@ -8171,51 +8171,6 @@ foreignObject[mask*="url(#"] {
     stroke-width: 3px;
 }
 
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#43b581"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(67, 181, 129, 1)"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="online"],
-.wrapper-3t9DeA rect[fill="#43b581"],
-.wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"],
-.wrapper-3t9DeA rect[mask*="online"] {
-    stroke: var(--green);
-}
-
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#faa61a"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(250, 166, 26, 1)"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="idle"],
-.wrapper-3t9DeA rect[fill="#faa61a"],
-.wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"],
-.wrapper-3t9DeA rect[mask*="idle"] {
-    stroke: var(--yellow);
-}
-
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#f04747"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(240, 71, 71, 1)"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="dnd"],
-.wrapper-3t9DeA rect[fill="#f04747"],
-.wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],
-.wrapper-3t9DeA rect[mask*="dnd"] {
-    stroke: var(--red);
-}
-
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#593695"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="streaming"],
-.wrapper-3t9DeA rect[fill="#593695"],
-.wrapper-3t9DeA rect[mask*="streaming"] {
-    stroke: var(--purple);
-}
-
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="#747f8d"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="offline"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[mask*="ivisible"],
-[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[fill="rgba(116, 127, 141, 1)"],
-.wrapper-3t9DeA rect[fill="#747f8d"],
-.wrapper-3t9DeA rect[mask*="offline"],
-.wrapper-3t9DeA rect[mask*="ivisible"],
-.wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
-    stroke: #747f8d;
-}
-
 [role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) rect[x="16"],
 .wrapper-3t9DeA rect[x="16"] {
     width: 24px;
