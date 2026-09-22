@@ -14469,3 +14469,53 @@ a.anchor-1MIwyf:hover,
     -webkit-mask: none !important;
     border-radius: 12px !important; /* Changez 12px par 15px, 20px ou 50% selon l'arrondi voulu */
 }
+
+/* =========================================================
+   RESTAURATION DES ICÔNES DE STATUT DISCORD
+   ========================================================= */
+
+/* EN LIGNE */
+[role="img"][aria-label*="En ligne"] *[fill="transparent"],
+[role="img"][aria-label*="Online"] *[fill="transparent"] {
+    fill: rgb(67, 181, 129) !important;
+    mask: url(#svg-mask-status-online) !important;
+    -webkit-mask: url(#svg-mask-status-online) !important;
+}
+
+/* INACTIF */
+[role="img"][aria-label*="Inactif"] *[fill="transparent"],
+[role="img"][aria-label*="Idle"] *[fill="transparent"] {
+    fill: rgb(250, 166, 26) !important;
+    mask: url(#svg-mask-status-idle) !important;
+    -webkit-mask: url(#svg-mask-status-idle) !important;
+}
+
+/* NE PAS DÉRANGER */
+[role="img"][aria-label*="Ne pas déranger"] *[fill="transparent"],
+[role="img"][aria-label*="Do Not Disturb"] *[fill="transparent"] {
+    fill: rgb(240, 71, 71) !important;
+    mask: url(#svg-mask-status-dnd) !important;
+    -webkit-mask: url(#svg-mask-status-dnd) !important;
+}
+
+/* HORS LIGNE */
+[role="img"][aria-label*="Hors ligne"] *[fill="transparent"],
+[role="img"][aria-label*="Offline"] *[fill="transparent"] {
+    fill: rgb(116, 127, 141) !important;
+    mask: url(#svg-mask-status-offline) !important;
+    -webkit-mask: url(#svg-mask-status-offline) !important;
+}
+
+
+/* =========================================================
+   RESTAURATION DES ICÔNES DE SERVEURS
+   ========================================================= */
+
+[class*="guilds"] foreignObject,
+[class*="guilds"] foreignObject img,
+[class*="guilds"] [class*="childWrapper"],
+[class*="guilds"] [class*="icon"] {
+    mask: none !important;
+    -webkit-mask: none !important;
+    border-radius: 12px !important;
+}
